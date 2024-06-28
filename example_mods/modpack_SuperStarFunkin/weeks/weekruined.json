@@ -1,0 +1,22 @@
+{
+	"songs": [
+		["Badbear", "ruinFreddy", [146, 113, 253]]
+	],
+
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+
+	"difficulties": "Normal, Hard",
+	"weekBackground": "stage",
+
+	"storyName": "Ruin Freddy",
+	"weekBefore": "tutorial",
+	"weekName": "weekruined",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

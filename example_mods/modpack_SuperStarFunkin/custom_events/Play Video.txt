@@ -1,0 +1,6 @@
+Plays a video file from the videos folder.
+
+Value 1: Name of video file
+Value 2: Sets the inCutscene variable (True/False).
+
+Leave Value 2 empty if you're unsure which one you need.

@@ -1,0 +1,70 @@
+{
+	"song": {
+		"events": [
+			[
+				13913.0434782609,
+				[
+					[
+
+					]
+				]
+			],
+			[
+				27826.0869565217,
+				[
+					[
+
+					]
+				]
+			],
+			[
+				41739.1304347826,
+				[
+					[
+
+					]
+				]
+			],
+			[
+				111304.347826087,
+				[
+					[
+						"Change Character",
+						"BF",
+						"ruinBoyfriendTorso"
+					],
+					[
+						"Camera Flash",
+						"camGame, true",
+						"FFFFFF, 1"
+					],
+					[
+						"Alt Idle Animation",
+						"Dad",
+						"-alt"
+					]
+				]
+			],
+			[
+				125217.391304348,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"ruinFreddyWall"
+					],
+					[
+						"Camera Flash",
+						"camGame, true",
+						"FFFFFF, 1"
+					],
+					[
+						"Alt Idle Animation",
+						"Dad",
+						""
+					]
+				]
+			]
+		]
+	}
+}

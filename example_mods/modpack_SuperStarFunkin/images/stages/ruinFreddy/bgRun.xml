@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bgRun.png" width="4088" height="6010">
+	<SubTexture name="BG Running Sequence 0000" x="2" y="2" width="1920" height="1080" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="BG Running Sequence 0001" x="1924" y="2" width="1080" height="1920" rotated="true" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="BG Running Sequence 0002" x="2" y="1084" width="1080" height="1920" rotated="true" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="BG Running Sequence 0003" x="1084" y="1924" width="1920" height="1080" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="BG Running Sequence 0004" x="3006" y="2" width="1080" height="1920" rotated="true" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="BG Running Sequence 0005" x="3006" y="1924" width="1080" height="1920" rotated="true" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="BG Running Sequence 0006" x="2" y="3006" width="1080" height="1920" rotated="true" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="BG Running Sequence 0007" x="1084" y="3006" width="1080" height="1920" rotated="true" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="BG Running Sequence 0008" x="2166" y="3846" width="1920" height="1080" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="BG Running Sequence 0009" x="2" y="4928" width="1920" height="1080" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="BG Running Sequence 0010" x="1924" y="4928" width="1920" height="1080" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+</TextureAtlas>

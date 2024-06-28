@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				23,
+				60
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Ruin Freddy Left"
+		},
+		{
+			"offsets": [
+				23,
+				60
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Ruin Freddy Down"
+		},
+		{
+			"offsets": [
+				23,
+				60
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Ruin Freddy Up"
+		},
+		{
+			"offsets": [
+				23,
+				60
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Ruin Freddy Right"
+		},
+		{
+			"offsets": [
+				0,
+				60
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Ruin Freddy Idle"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				80,
+				120
+			],
+			"anim": "chase",
+			"fps": 24,
+			"name": "Ruin Freddy Chase",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				80,
+				60
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "Ruin Freddy Chase",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ruinFreddy",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "ruinFreddy",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		-100,
+		-200
+	],
+	"sing_duration": 4,
+	"scale": 1.2
+}

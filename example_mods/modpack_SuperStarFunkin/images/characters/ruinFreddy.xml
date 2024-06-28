@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="ruinFreddy.png" width="5939" height="5937">
+	<SubTexture name="Ruin Freddy Chase 0000" x="3000" y="2295" width="720" height="731" frameX="-118" frameY="-173" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0001" x="2355" y="2" width="760" height="754" frameX="-98" frameY="-176" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0002" x="796" y="2338" width="800" height="734" frameX="-79" frameY="-205" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0003" x="3000" y="1599" width="821" height="694" frameX="-74" frameY="-245" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0004" x="2" y="2347" width="698" height="836" rotated="true" frameX="-77" frameY="-241" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0005" x="702" y="3074" width="828" height="697" frameX="-93" frameY="-242" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0006" x="2308" y="765" width="707" height="832" rotated="true" frameX="-95" frameY="-232" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0007" x="1573" y="851" width="733" height="806" rotated="true" frameX="-121" frameY="-206" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0008" x="1578" y="2" width="775" height="761" frameX="-145" frameY="-178" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0009" x="1598" y="2453" width="751" height="773" frameX="-159" frameY="-166" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0010" x="796" y="1567" width="775" height="769" frameX="-121" frameY="-170" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0011" x="2" y="1567" width="792" height="778" frameX="-89" frameY="-161" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0012" x="2" y="778" width="806" height="787" frameX="-63" frameY="-152" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0013" x="2" y="2" width="833" height="774" frameX="-33" frameY="-159" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0014" x="837" y="2" width="739" height="847" rotated="true" frameX="-22" frameY="-193" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0015" x="2308" y="1599" width="690" height="852" rotated="true" frameX="-19" frameY="-236" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0016" x="3017" y="758" width="675" height="833" rotated="true" frameX="-35" frameY="-241" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0017" x="1598" y="1659" width="674" height="761" rotated="true" frameX="-99" frameY="-242" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0018" x="2846" y="3716" width="652" height="687" frameX="-203" frameY="-232" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0019" x="3802" y="2" width="595" height="688" frameX="-258" frameY="-208" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0020" x="3722" y="2295" width="632" height="692" frameX="-219" frameY="-181" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Chase 0021" x="696" y="3773" width="711" height="662" rotated="true" frameX="-181" frameY="-166" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Down 0000" x="2351" y="2453" width="592" height="389" rotated="true" frameX="-247" frameY="-306" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Down 0001" x="5185" y="1348" width="398" height="596" frameX="-231" frameY="-302" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Down 0002" x="4884" y="2" width="417" height="605" frameX="-195" frameY="-293" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Down 0003" x="738" y="4914" width="619" height="445" rotated="true" frameX="-148" frameY="-279" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Down 0004" x="3537" y="4891" width="637" height="472" rotated="true" frameX="-105" frameY="-261" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Down 0005" x="4399" y="2" width="483" height="657" frameX="-74" frameY="-241" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Down 0006" x="697" y="4437" width="678" height="475" rotated="true" frameX="-64" frameY="-220" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Down 0007" x="3548" y="4434" width="697" height="455" rotated="true" frameX="-69" frameY="-201" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Down 0008" x="2824" y="4881" width="711" height="423" rotated="true" frameX="-88" frameY="-187" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Down 0009" x="4940" y="4424" width="375" height="721" frameX="-124" frameY="-177" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Down 0010" x="4816" y="2118" width="728" height="326" rotated="true" frameX="-165" frameY="-170" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Down 0011" x="5536" y="2446" width="290" height="733" frameX="-195" frameY="-165" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Down 0012" x="5585" y="738" width="281" height="734" frameX="-202" frameY="-164" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Idle 0000" x="5201" y="5653" width="697" height="282" rotated="true" frameX="-198" frameY="-201" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Idle 0001" x="3487" y="5618" width="682" height="269" rotated="true" frameX="-207" frameY="-216" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Idle 0002" x="2064" y="5624" width="683" height="267" rotated="true" frameX="-208" frameY="-215" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Idle 0003" x="4171" y="5642" width="686" height="267" rotated="true" frameX="-207" frameY="-212" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Idle 0004" x="2796" y="5618" width="689" height="272" rotated="true" frameX="-203" frameY="-209" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Idle 0005" x="4911" y="5147" width="288" height="694" frameX="-198" frameY="-204" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Idle 0006" x="5634" y="3181" width="303" height="698" frameX="-193" frameY="-200" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Idle 0007" x="1359" y="5317" width="703" height="313" rotated="true" frameX="-189" frameY="-195" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Idle 0008" x="5317" y="4206" width="320" height="708" frameX="-185" frameY="-190" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Idle 0009" x="5164" y="2767" width="321" height="713" frameX="-183" frameY="-185" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Idle 0010" x="4816" y="2446" width="718" height="319" rotated="true" frameX="-182" frameY="-180" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Idle 0011" x="5317" y="3482" width="315" height="722" frameX="-181" frameY="-176" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Idle 0012" x="2" y="5345" width="726" height="309" rotated="true" frameX="-181" frameY="-172" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Idle 0013" x="2064" y="5321" width="730" height="301" rotated="true" frameX="-181" frameY="-168" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Idle 0014" x="5625" y="4916" width="293" height="732" frameX="-182" frameY="-166" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Idle 0015" x="5639" y="3881" width="288" height="734" frameX="-182" frameY="-164" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Idle 0016" x="5465" y="2" width="286" height="734" frameX="-182" frameY="-164" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Left 0000" x="2119" y="4426" width="703" height="459" rotated="true" frameX="-83" frameY="-195" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Left 0001" x="1377" y="4458" width="698" height="459" rotated="true" frameX="-82" frameY="-200" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Left 0002" x="2" y="4437" width="693" height="465" rotated="true" frameX="-80" frameY="-205" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Left 0003" x="4334" y="1423" width="487" height="693" frameX="-76" frameY="-205" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Left 0004" x="2" y="3896" width="692" height="509" rotated="true" frameX="-72" frameY="-206" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Left 0005" x="3500" y="3716" width="522" height="698" frameX="-72" frameY="-200" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Left 0006" x="1409" y="3931" width="708" height="525" rotated="true" frameX="-75" frameY="-190" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Left 0007" x="3823" y="1476" width="509" height="719" frameX="-85" frameY="-179" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Left 0008" x="4268" y="692" width="484" height="729" frameX="-104" frameY="-169" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Left 0009" x="2" y="4914" width="734" height="429" rotated="true" frameX="-133" frameY="-164" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Left 0010" x="4799" y="2828" width="363" height="736" frameX="-163" frameY="-162" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Left 0011" x="5317" y="4916" width="306" height="735" frameX="-190" frameY="-163" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Left 0012" x="5585" y="1474" width="281" height="734" frameX="-202" frameY="-164" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Right 0000" x="810" y="851" width="759" height="683" frameX="-120" frameY="-215" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Right 0001" x="3117" y="2" width="683" height="753" rotated="true" frameX="-122" frameY="-215" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Right 0002" x="2351" y="3028" width="744" height="684" frameX="-123" frameY="-214" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Right 0003" x="3097" y="3028" width="730" height="686" frameX="-122" frameY="-212" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Right 0004" x="2" y="3185" width="692" height="709" rotated="true" frameX="-121" frameY="-206" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Right 0005" x="1532" y="3228" width="678" height="701" frameX="-121" frameY="-197" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Right 0006" x="2212" y="3714" width="632" height="710" frameX="-124" frameY="-188" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Right 0007" x="3694" y="757" width="572" height="717" frameX="-134" frameY="-181" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Right 0008" x="3829" y="2989" width="503" height="723" frameX="-151" frameY="-175" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Right 0009" x="2077" y="4887" width="728" height="432" rotated="true" frameX="-169" frameY="-170" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Right 0010" x="4823" y="1373" width="360" height="731" frameX="-187" frameY="-167" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Right 0011" x="4176" y="5335" width="733" height="305" rotated="true" frameX="-197" frameY="-165" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Right 0012" x="5585" y="1474" width="281" height="734" frameX="-202" frameY="-164" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Up 0000" x="4024" y="3714" width="465" height="718" frameX="-9" frameY="-180" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Up 0001" x="4334" y="2989" width="463" height="717" frameX="-11" frameY="-181" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Up 0002" x="4491" y="3708" width="458" height="714" frameX="-16" frameY="-184" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Up 0003" x="4356" y="2118" width="458" height="708" frameX="-23" frameY="-190" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Up 0004" x="2846" y="4416" width="700" height="463" rotated="true" frameX="-31" frameY="-198" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Up 0005" x="4247" y="4434" width="691" height="458" rotated="true" frameX="-45" frameY="-207" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Up 0006" x="4176" y="4894" width="681" height="439" rotated="true" frameX="-72" frameY="-217" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Up 0007" x="1359" y="4919" width="685" height="396" rotated="true" frameX="-126" frameY="-213" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Up 0008" x="4754" y="661" width="378" height="710" frameX="-146" frameY="-188" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Up 0009" x="4951" y="3566" width="364" height="729" frameX="-161" frameY="-169" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Up 0010" x="5134" y="609" width="329" height="737" frameX="-180" frameY="-161" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Up 0011" x="2796" y="5321" width="736" height="295" rotated="true" frameX="-196" frameY="-162" frameWidth="966" frameHeight="960"/>
+	<SubTexture name="Ruin Freddy Up 0012" x="5585" y="738" width="281" height="734" frameX="-202" frameY="-164" frameWidth="966" frameHeight="960"/>
+</TextureAtlas>
