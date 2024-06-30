@@ -19,7 +19,7 @@ class OutdatedState extends MusicBeatState
 			Press ESCAPE to proceed anyway.\n
 			Press ENTER to open the download page.",
 			32);
-		warnText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER);
+		warnText.setFormat("orbitron.ttf", 32, FlxColor.WHITE, CENTER);
 		warnText.screenCenter(Y);
 		add(warnText);
 	}

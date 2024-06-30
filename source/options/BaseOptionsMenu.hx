@@ -38,9 +38,11 @@ class BaseOptionsMenu extends MusicBeatSubstate
 		DiscordClient.changePresence(rpcTitle, null);
 		#end
 		
-		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg = new FlxSprite(0, 0).loadGraphic(Paths.image('background'));
 		bg.color = 0xFFea71fd;
 		bg.screenCenter();
+		bg.updateHitbox();
+		bg.x -= 500;
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		add(bg);
 
@@ -63,8 +65,8 @@ class BaseOptionsMenu extends MusicBeatSubstate
 		titleText.alpha = 0.4;
 		add(titleText);
 
-		descText = new FlxText(50, 600, 1180, "", 32);
-		descText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		descText = new FlxText(50, 600, 1180, "", 24);
+		descText.setFormat(Paths.font("orbitron.ttf"), 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		descText.scrollFactor.set();
 		descText.borderSize = 2.4;
 		add(descText);

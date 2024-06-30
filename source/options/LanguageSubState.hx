@@ -11,10 +11,12 @@ class LanguageSubState extends MusicBeatSubstate
 	{
 		super();
 
-		var bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		var bg:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('background'));
 		bg.color = 0xFFea71fd;
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		bg.screenCenter();
+		bg.updateHitbox();
+		bg.x -= 500;
 		add(bg);
 		add(grpLanguages);
 

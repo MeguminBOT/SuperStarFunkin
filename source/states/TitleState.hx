@@ -106,7 +106,7 @@ class TitleState extends MusicBeatState
 		if (initialized && !transitioning) {
 			transitioning = true;
 
-			new FlxTimer().start(1, function(tmr:FlxTimer)
+			new FlxTimer().start(0.1, function(tmr:FlxTimer)
 			{
 				if (mustUpdate) {
 					MusicBeatState.switchState(new OutdatedState());
