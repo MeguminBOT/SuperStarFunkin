@@ -1,0 +1,20 @@
+{
+	"songs": [
+		["Hyperstar", "glamfred", [255, 152, 47]]
+	],
+
+	"storyName": "Hyperstar",
+	"difficulties": "Normal, Hard",
+	"weekBefore": "tutorial",
+	"weekName": "weekglam",
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"hideFreeplay": false,
+
+	"weekBackground": "",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	]
+}

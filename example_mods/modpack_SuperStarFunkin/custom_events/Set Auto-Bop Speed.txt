@@ -1,0 +1,3 @@
+Allows for Auto-Bop, rather than placing camera zooms individually.
+Value 1 - Step rate of bopping
+Value 2 - Intensity multiplier

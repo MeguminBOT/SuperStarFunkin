@@ -1,0 +1,3 @@
+Does a smooth camera zoom
+Value 1 - New zoom value
+Value 2 - Duration of zoom in song steps

@@ -3,20 +3,18 @@
 		["Badbear", "ruinFreddy", [146, 113, 253]]
 	],
 
+	"storyName": "Superstar",
+	"difficulties": "Normal, Hard",
+	"weekBefore": "tutorial",
+	"weekName": "weekruined",
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"hideFreeplay": false,
+
+	"weekBackground": "",
 	"weekCharacters": [
 		"",
 		"",
 		""
-	],
-
-	"difficulties": "Normal, Hard",
-	"weekBackground": "stage",
-
-	"storyName": "Ruin Freddy",
-	"weekBefore": "tutorial",
-	"weekName": "weekruined",
-	"startUnlocked": true,
-
-	"hideStoryMode": false,
-	"hideFreeplay": false
+	]
 }

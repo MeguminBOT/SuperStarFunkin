@@ -1,0 +1,2 @@
+VFX blah blah blah
+Set Value1 to 1 to disable, otherwise will enable
