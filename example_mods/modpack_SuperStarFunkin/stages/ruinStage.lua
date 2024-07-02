@@ -1,10 +1,13 @@
 
 
 function onCreate()
+    addCharacterToList('ruinGameOver', 'boyfriend')
+    precacheImage('gameover/ruinGameOver')
+
     --stage1
     precacheImage('stages/ruinFreddy/bgMain')
-    makeLuaSprite('bgMain', 'stages/ruinFreddy/bgMain', 0, 50)
-    scaleObject('bgMain', 0.7, 0.7, true)
+    makeLuaSprite('bgMain', 'stages/ruinFreddy/bgMain', -100, 50)
+    scaleObject('bgMain', 0.75, 0.75, true)
     screenCenter('bgMain', 'xy')
     setScrollFactor('bgMain', 1, 1)
     addLuaSprite('bgMain', false)
