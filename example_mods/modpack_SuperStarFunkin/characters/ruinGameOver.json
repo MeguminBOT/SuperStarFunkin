@@ -1,0 +1,36 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				1400,
+				400
+			],
+			"anim": "idle",
+			"fps": 30,
+			"name": "ruinGameOver",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "gameover/ruinGameOver",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "superBF",
+	"flip_x": false,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		270,
+		190
+	],
+	"sing_duration": 4,
+	"scale": 2,
+	"_editor_isPlayer": true
+}

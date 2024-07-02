@@ -2,7 +2,7 @@
 	"song": {
 		"player1": "ruinBoyfriend",
 		"events": [],
-		"gfVersion": "gf",
+		"gfVersion": "noChar",
 		"notes": [
 			{
 				"sectionNotes": [],
@@ -5857,7 +5857,9 @@
 			}
 		],
 		"player2": "ruinFreddy",
+		"gameOverSound": "ruinGameOver",
 		"player3": null,
+		"gameOverChar": "ruinGameOver",
 		"song": "Badbear",
 		"stage": "ruinStage",
 		"needsVoices": true,
