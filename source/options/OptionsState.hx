@@ -48,7 +48,7 @@ class OptionsState extends MusicBeatState
 		DiscordClient.changePresence("Options Menu", null);
 		#end
 
-		var bg:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('background'));
+		var bg:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('backgroundAlt'));
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		bg.color = 0xFFea71fd;
 		bg.screenCenter();

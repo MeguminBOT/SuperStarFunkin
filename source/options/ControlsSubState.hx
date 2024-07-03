@@ -72,7 +72,7 @@ class ControlsSubState extends MusicBeatSubstate
 		options.push([true]);
 		options.push([true, defaultKey]);
 
-		bg = new FlxSprite(0, 0).loadGraphic(Paths.image('background'));
+		bg = new FlxSprite(0, 0).loadGraphic(Paths.image('backgroundAlt'));
 		bg.color = keyboardColor;
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		bg.screenCenter();

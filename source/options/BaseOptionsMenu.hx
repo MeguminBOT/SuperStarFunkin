@@ -38,7 +38,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 		DiscordClient.changePresence(rpcTitle, null);
 		#end
 		
-		bg = new FlxSprite(0, 0).loadGraphic(Paths.image('background'));
+		bg = new FlxSprite(0, 0).loadGraphic(Paths.image('backgroundAlt'));
 		bg.color = 0xFFea71fd;
 		bg.screenCenter();
 		bg.updateHitbox();
