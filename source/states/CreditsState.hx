@@ -9,6 +9,7 @@ class CreditsState extends MusicBeatState
 
 	private var descItems:FlxTypedGroup<FlxSprite>;
 	private var peopleItems:FlxTypedGroup<FlxSprite>;
+	private var iconItems:FlxTypedGroup<FlxSprite>;
 	private var peopleShit:Array<String> = ['blue', 'zombie', 'lulu', 'springy', 'penove', 'dom', 'pouria'];
 
 	override function create()
@@ -37,12 +38,13 @@ class CreditsState extends MusicBeatState
 		descItems = new FlxTypedGroup<FlxSprite>();
 		add(descItems);
 
-		for (name in peopleShit) {
-			createPeopleItem(name);
-		}
+		iconItems = new FlxTypedGroup<FlxSprite>();
+		add(iconItems);
 
 		for (name in peopleShit) {
+			createPeopleItem(name);
 			createDescItem(name);
+			createIconItem(name);
 		}
 
 		changeItem();
@@ -72,12 +74,20 @@ class CreditsState extends MusicBeatState
 		descItems.add(sprite);
 	}
 
+	function createIconItem(name:String)
+	{
+		var sprite = new FlxSprite(0, 0).loadGraphic(Paths.image('creditsmenu/icon/$name'));
+		sprite.scale.set(SCALE_FACTOR, SCALE_FACTOR);
+		sprite.updateHitbox();
+		sprite.antialiasing = ClientPrefs.data.antialiasing;
+		iconItems.add(sprite);
+	}
+
 	override function update(elapsed:Float)
 	{
-		if (controls.UI_UP_P)
-			changeItem(-1);
-		if (controls.UI_DOWN_P)
-			changeItem(1);
+		if (controls.UI_UP_P || controls.UI_DOWN_P) {
+			changeItem(controls.UI_UP_P ? -1 : 1);
+		}
 
 		if (controls.BACK) {
 			FlxG.sound.play(Paths.sound('cancelMenu'));
@@ -100,10 +110,17 @@ class CreditsState extends MusicBeatState
 			item.visible = false;
 		}
 
+		for (item in iconItems) {
+			item.visible = false;
+		}
+
 		var selectedItem = peopleItems.members[curSelected];
 		selectedItem.animation.play('highlight');
 
 		var selectedItemDesc = descItems.members[curSelected];
 		selectedItemDesc.visible = true;
+
+		var selectedItemIcon = iconItems.members[curSelected];
+		selectedItemIcon.visible = true;
 	}
 }
