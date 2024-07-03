@@ -4,7 +4,7 @@
 	],
 
 	"storyName": "Superstar",
-	"difficulties": "Normal, Hard",
+	"difficulties": "Hard, Ruined",
 	"weekBefore": "tutorial",
 	"weekName": "weekruined",
 	"startUnlocked": true,
