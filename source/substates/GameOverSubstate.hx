@@ -12,10 +12,7 @@ import states.FreeplayState;
 class GameOverSubstate extends MusicBeatSubstate
 {
 	public var boyfriend:Character;
-	var camFollow:FlxObject;
-	var moveCamera:Bool = false;
 	var playingDeathSound:Bool = false;
-
 	var stagePostfix:String = "";
 
 	public static var characterName:String = 'bf-dead';
@@ -43,6 +40,10 @@ class GameOverSubstate extends MusicBeatSubstate
 
 	var charX:Float = 0;
 	var charY:Float = 0;
+
+	var camDeath:FlxCamera;
+	var deathAnim:FlxSprite;
+	
 	override function create()
 	{
 		instance = this;
@@ -60,11 +61,18 @@ class GameOverSubstate extends MusicBeatSubstate
 
 		boyfriend.playAnim('firstDeath');
 
-		camFollow = new FlxObject(0, 0, 1, 1);
-		camFollow.setPosition(boyfriend.getGraphicMidpoint().x + boyfriend.cameraPosition[0], boyfriend.getGraphicMidpoint().y + boyfriend.cameraPosition[1]);
-		FlxG.camera.focusOn(new FlxPoint(FlxG.camera.scroll.x + (FlxG.camera.width / 2), FlxG.camera.scroll.y + (FlxG.camera.height / 2)));
-		add(camFollow);
-		
+		if (PlayState.SONG.song == 'Badbear') {
+
+	
+			deathAnim = new FlxSprite(0, 0);
+			deathAnim.frames = Paths.getSparrowAtlas('gameover/ruinGameOver');
+			deathAnim.animation.addByPrefix('idle', 'ruinGameOver', 30, false);
+			deathAnim.antialiasing = ClientPrefs.data.antialiasing;
+			deathAnim.scale.set(2, 2);
+			add(deathAnim);
+			deathAnim.animation.play('idle');	
+		}
+
 		PlayState.instance.setOnScripts('inGameOver', true);
 		PlayState.instance.callOnScripts('onGameOverStart', []);
 
@@ -72,6 +80,7 @@ class GameOverSubstate extends MusicBeatSubstate
 	}
 
 	public var startedDeath:Bool = false;
+
 	override function update(elapsed:Float)
 	{
 		super.update(elapsed);
@@ -108,12 +117,6 @@ class GameOverSubstate extends MusicBeatSubstate
 
 			if(boyfriend.getAnimationName() == 'firstDeath')
 			{
-				if((!boyfriend.isAnimateAtlas && boyfriend.animation.curAnim.curFrame >= 12 || boyfriend.isAnimateAtlas && boyfriend.atlas.anim.curFrame >= 12) && !moveCamera)
-				{
-					FlxG.camera.follow(camFollow, LOCKON, 0.01);
-					moveCamera = true;
-				}
-
 				if (boyfriend.isAnimationFinished() && !playingDeathSound)
 				{
 					startedDeath = true;

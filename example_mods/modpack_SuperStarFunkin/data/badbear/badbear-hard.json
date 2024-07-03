@@ -5859,7 +5859,7 @@
 		"player2": "ruinFreddy",
 		"gameOverSound": "ruinGameOver",
 		"player3": null,
-		"gameOverChar": "ruinGameOver",
+		"gameOverChar": "",
 		"song": "Badbear",
 		"stage": "ruinStage",
 		"needsVoices": true,
